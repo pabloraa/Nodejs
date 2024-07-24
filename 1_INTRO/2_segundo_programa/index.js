@@ -5,7 +5,6 @@ fs.readFile('arquivo.txt', 'utf8', (err,data)=>{
         console.log("Leitura não executada, verifique o nome do arquivo" + err)
         return
     }
-    else{
-        console.log("Leitura realizada com sucesso!" + data)
-    }
+    
+        console.log("Leitura realizada com sucesso:" + data);
 });
