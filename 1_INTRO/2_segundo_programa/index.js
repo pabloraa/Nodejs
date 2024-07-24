@@ -6,6 +6,6 @@ fs.readFile('arquivo.txt', 'utf8', (err,data)=>{
         return
     }
     else{
-        console.log("Leitura realizada com sucesso:" + data);
+        console.log("Leitura realizada com sucesso: " + data);
     }
 });
